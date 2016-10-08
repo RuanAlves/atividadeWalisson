@@ -14,7 +14,7 @@
 			<fieldset>
 
 				<!-- Form Name -->
-				<legend>Cadastro do Usuário</legend>
+				<legend>Cadastro do Usuário </legend>
 
 				<!-- Text input-->
 				<div class="form-group">
