@@ -1,7 +1,11 @@
 angular.module("vendas").config(function ($routeProvider) {
-	$routeProvider.when("/usuario", {
-		templateUrl: "index.html",
-		controller: "usuarioCtrl"
+	$routeProvider.when("/produto", {
+		templateUrl: "produto.html",
+		controller: "produtoCtrl"
 	});
-	$routeProvider.otherwise({redirectTo: "/usuario"});
+	$routeProvider.when("/cliente", {
+		templateUrl: "cliente.html",
+		controller: "clienteCtrl"
+	});
+	$routeProvider.otherwise({redirectTo: "/produto"});
 });
