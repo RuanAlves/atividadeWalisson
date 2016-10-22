@@ -1,4 +1,4 @@
-package atividade;
+package lab.cliente;
 
 import org.springframework.data.repository.CrudRepository;
 

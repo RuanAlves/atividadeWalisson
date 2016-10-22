@@ -5,7 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Vendas</title>
-<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+<link href="lib/bootstrap-darkly/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 <script src="lib/angularjs/js/angular.min.js"></script>
 <script src="lib/angularjs/js/angular-route.min.js"></script>
 <script type="text/javascript" src="vendas.js"></script>
@@ -14,9 +16,17 @@
 <script type="text/javascript" src="routeConfig.js"></script>
 </head>
 <body>
-	<a href="#/produto">Produto</a>
-	<br>
-	<a href="#/cliente">Cliente</a>
+
+	<div align="left">
+
+		<br> <Br>
+		<section>
+			<a href="#/produto"><button id="js-trigger-overlay" type="button">Produto</button></a>
+			<a href="#/cliente"><button id="js-trigger-overlay" type="button">Cliente</button></a>
+		</section>
+
+	</div>
+
 	<div ng-view></div>
 	<script src="lib/jquery/js/jquery.min.js"></script>
 	<script src="lib/bootstrap/js/bootstrap.min.js"></script>

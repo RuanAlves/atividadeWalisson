@@ -1,4 +1,4 @@
-package atividade;
+package lab.cliente;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
